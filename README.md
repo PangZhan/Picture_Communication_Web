@@ -1,0 +1,2 @@
+# Picture_Communication_Web
+这是做的一个图片交流网站，用python开发，数据库使用mysql
