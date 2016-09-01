@@ -9,7 +9,7 @@ import random
 manager = Manager(app)
 
 def get_image_url():
-    return 'http://ob7ugr4wu.bkt.clouddn.com/' + str(random.randint(1,30)) +  '.jpg'
+    return 'http://images.nowcoder.com/head/' + str(random.randint(0,1000)) +  'm.png'
 
 @manager.command
 def init_database():
@@ -54,4 +54,6 @@ def init_database():
     print 11, image, image.user
 
 if __name__ == '__main__':
+    init_database()
+    
     manager.run()
