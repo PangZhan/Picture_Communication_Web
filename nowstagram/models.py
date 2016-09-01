@@ -50,7 +50,7 @@ class User(db.Model):
         self.username = username
         self.password = password
         self.salt = salt
-        self.head_url = 'http://ob7ugr4wu.bkt.clouddn.com/' + str(random.randint(1,30)) +  '.jpg'
+        self.head_url = 'http://images.nowcoder.com/head/' + str(random.randint(0,1000)) +  'm.png'
 
     def __repr__(self):
         return '[User %d %s]' % (self.id, self.username)

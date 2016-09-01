@@ -1,4 +1,4 @@
- # -*- encoding=UTF-8 -*-
+# -*- encoding=UTF-8 -*-
 
 from nowstagram import app, db
 from models import Image, User, Comment
